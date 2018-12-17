@@ -29,4 +29,3 @@ while tickets_remaining >= 1:
         else:
             print("Thank you anyways, {}".format(customer_name))
 print("Sorry the tickets are all sold out!!! :(")
-# test for git
