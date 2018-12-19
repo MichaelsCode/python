@@ -23,7 +23,7 @@ while tickets_remaining >= 1:
         amount_due = calculate_price(number_of_tickets)
         print("Total due is: {}  ".format(amount_due))
         should_proceed = input("Do you want to proceed?  Y/N  ")
-        if should_proceed.lower() == 'y':
+        if should_proceed.lower() == 'n':
             print("SOLD!")
             tickets_remaining -= number_of_tickets
         else:
